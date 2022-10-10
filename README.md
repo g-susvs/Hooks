@@ -13,3 +13,6 @@
 **useCallback:** Memoriza funciones.
 
 **useReducer:** Es un alternativa al **useState**, a menudo es usado cuando se tiene una lógica compleja que involucra múltiples subvalores o cuando el próximo estado depende del anterior.
+
+**useContext:** Para acceder al contexto primero se debe de inicializar luego envolver los componente con el provedor del contexto y proporcionar el valor del estado, ya con eso podemos acceder al contexto utilizando el **useContext** y enviar por parametro el contexto creado.
+
