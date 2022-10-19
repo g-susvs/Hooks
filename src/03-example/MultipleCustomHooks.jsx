@@ -23,7 +23,7 @@ export const MultipleCustomHooks = () => {
         : null
       }
       
-      <Button func={increment} disabled={isLoading} content={"Nex quote"} />
+      <Button func={increment} disabled={isLoading} content={"Next quote"} />
       
     </>
   )
